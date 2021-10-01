@@ -1,8 +1,8 @@
 # Bulk Query
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/mosamirzz/laravel-bulk-query.svg?style=flat-square)](https://packagist.org/packages/mosamirzz/laravel-bulk-query)
-[![Total Downloads](https://img.shields.io/packagist/dt/mosamirzz/laravel-bulk-query.svg?style=flat-square)](https://packagist.org/packages/mosamirzz/laravel-bulk-query)
-![GitHub Actions](https://github.com/mosamirzz/laravel-bulk-query/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mosamirzz/bulk-query.svg?style=flat-square)](https://packagist.org/packages/mosamirzz/bulk-query)
+[![Total Downloads](https://img.shields.io/packagist/dt/mosamirzz/bulk-query.svg?style=flat-square)](https://packagist.org/packages/mosamirzz/bulk-query)
+![GitHub Actions](https://github.com/mosamirzz/bulk-query/actions/workflows/main.yml/badge.svg)
 
 Perform Bulk/Batch Update/Insert/Delete with laravel.
 
