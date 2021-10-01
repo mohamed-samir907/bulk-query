@@ -1,0 +1,51 @@
+{
+    "name": "mosamirzz/bulk-query",
+    "description": "Perform bulk update/insert/delete with laravel.",
+    "keywords": [
+        "mosamirzz",
+        "laravel",
+        "bulk-query",
+        "bulk insert",
+        "batch insert",
+        "bulk update",
+        "batch update",
+        "delete",
+        "batch delete",
+        "bulk delete"
+    ],
+    "homepage": "https://github.com/mosamirzz/laravel-bulk-query",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mohamed Samir",
+            "email": "gm.mohamedsamir@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mosamirzz\\BulkQuery\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mosamirzz\\BulkQuery\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
