@@ -42,7 +42,7 @@ $delete->prepare([1, 2, 3, 4]);
 $delete->execute();
 ```
 
-As shown above you can the default of delete statment is delete by the column `id` but if you want to perform the delete query with different column you can use the method `useKey` and pass to it the column name as following:
+As shown above the default of delete statment is delete by the column `id` but if you want to perform the delete query with different column you can use the method `useKey` and pass to it the column name as following:
 
 ```php
 use Mosamirzz\BulkQuery\Delete;
