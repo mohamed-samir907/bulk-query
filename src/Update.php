@@ -84,7 +84,6 @@ class Update extends Bulk
     {
         $table = $this->getTable();
         $values = implode(",", $this->values);
-        $where = $this->getwhere();
 
         $query = "UPDATE {$table} SET {$values} WHERE {$this->key} IN(";
         foreach ($this->keyValues as $val) {
@@ -92,6 +91,8 @@ class Update extends Bulk
             $this->bindings[] = $val;
         }
         $query = rtrim($query, ",");
+
+        $where = $this->getwhere();
         $query .= ") {$where}";
 
         return DB::update($query, $this->bindings);
