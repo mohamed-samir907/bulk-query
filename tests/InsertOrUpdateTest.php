@@ -26,7 +26,7 @@ class InsertOrUpdateTest extends TestCase
         ]);
         $query->execute();
 
-        $user = DB::table('users')->where("email")->first();
+        $user = DB::table('users')->first();
         $this->assertEquals($user->name, "mohamed samir");
         $this->assertEquals($user->password, "mohamed124");
     }

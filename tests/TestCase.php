@@ -22,7 +22,10 @@ class TestCase extends \Orchestra\Testbench\TestCase
 
     public function getEnvironmentSetUp($app)
     {
-        config()->set('database.default', 'testing');
+        $app["config"]->set('database.default', 'mysql');
+        $app["config"]->set("database.connections.mysql.database", "testdb");
+        $app["config"]->set("database.connections.mysql.username", "root");
+        $app["config"]->set("database.connections.mysql.password", "");
     }
 
     private function createTables()
